@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans&family=Playfair+Display&family=Silkscreen&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #D7CEC7;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.text {
+  text-align: center;
+}
+
+.text p {
+  font-size: 40px;
+}
+
+h1 {
+  padding-top: 60px;
+  font-size: 150px;
+}
+
+.navigation {
+  padding-top: 30px;
+  padding-right: 55px;
+  display: flex;
+  float: right;
+  font-size: 22px;
+  position: fixed;
+  background-color: #f8f2ed4f;
+  width: 100%;
+  position: fixed;
+}
+
+.Services {
+  margin-left: 10px;
+
+}
+
+.About {
+  margin-left: 10px;
+}
+
+.Contact {
+  margin-left: 10px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #565656;
+}
+
+a:hover {
+  color: #76323f;
+}
+
+.body-container {
+  height: 100vh;
+
+}
+
+.name {
+  font-family: 'Anton', sans-serif;
+  font-size: 5rem;
+  color: #76323F;
+  padding-top: 290px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.sub-text {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #565656;
+  font-size: 45px;
+  float: left;
+  padding-left: 30px;
+}
+
+.About-heading {
+  text-align: center;
+  font-size: large;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #565656;
+  background-color: #d7cec7;
+  font-size: 30px;
+}
+
+.About-section {
+  background-color: #d7cec7;
+  display: flex;
+  height: 30vh;
+}
+
+.Education {
+  width: 33%;
+  font-size: 20px;
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: #76323f;
+  background-color: #76323F;
+  color: white;
+  margin: 15px;
+  padding: 10px;
+}
+
+.Address {
+  width: 33%;
+  font-size: 20px;
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: #76323f;
+  margin: 15px;
+  background-color: #76323F;
+  color: white;
+  padding: 10px;
+}
+
+.Hobbies {
+  width: 33%;
+  font-size: 20px;
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: #76323f;
+  margin: 15px;
+  background-color: #76323F;
+  color: white;
+  padding: 10px;
+}
+
+h4 {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+}
+
+.Services-section {
+  height: 25vh;
+  background-color: #d7cec7;
+  display: flex;
+}
+
+.Services-heading {
+  background-color: #d7cec7;
+  text-align: center;
+  font-size: large;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #565656;
+  font-size: 30px;
+  /* border: 1px solid; */
+  /* border-color: #05f5f5; */
+
+}
+
+.Frontend {
+  padding-top: 15px;
+  width: 20%;
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: #76323f;
+  background-color: #76323F;
+  color: white;
+  margin: 15px;
+}
+
+.Backend {
+  padding-top: 15px;
+  width: 20%;
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: #76323f;
+  margin: 12px;
+  background-color: #76323F;
+  color: white;
+}
+
+.Database {
+  padding-top: 15px;
+  width: 20%;
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: #76323f;
+  margin: 12px;
+  background-color: #76323F;
+  color: white;
+}
+
+.Cloud {
+  padding-top: 15px;
+  width: 20%;
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: #76323f;
+  margin: 12px;
+  background-color: #76323F;
+  color: white;
+}
+
+.Mobile {
+  padding-top: 15px;
+  width: 20%;
+  border: 2px solid;
+  border-radius: 10px;
+  margin: 12px;
+  border-color: #76323f;
+  background-color: #76323F;
+  color: white; 
+}
+
+.Frontend:hover {
+  background-color: #76323f;
+  color:rgb(249, 233, 211)
+}
+
+.Backend:hover {
+  background-color: #76323f;
+  color:rgb(249, 233, 211)
+}
+
+.Database:hover {
+  background-color: #76323f;
+  color:rgb(249, 233, 211)
+}
+
+.Mobile:hover {
+  background-color: #76323f;
+  color:rgb(249, 233, 211)
+}
+
+.Cloud:hover {
+  background-color: #76323f;
+  color:rgb(249, 233, 211)
+}
+
+.Services-section i {
+  padding-top: 40px;
+  padding-left: 120px;
+  font-size: 100px;
+}
+
+.Contact-heading {
+  text-align: center;
+  font-size: large;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #565656;
+  background-color: #d7cec7;
+  font-size: 30px;
+}
+
+.Contact-section {
+  background-color: #d7cec7;
+  height: 50vh;
+  margin: 15px;
+  display: flex;
+}
+
+.Socials {
+
+  width: 50%;
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: #76323f;
+  color: white;
+  margin: 15px;
+}
+
+.form-container {
+
+  width: 50%;
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: #76323f;
+  color: #565656;
+  font-weight: bold;
+  margin: 15px;
+  padding: 12px;
+}
+
+input[type=text],
+textarea {
+  width: 99%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+input[type=email] {
+  width: 99%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+input[type=submit] {
+  background-color: white;
+  color: black;
+  padding: 8px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #18cdcc;
+}
+
+.footer {
+  text-align: center;
+  background-color: #222222;
+  color: white;
+}
+
+.Socials-icons i {
+  color: #76323F;
+  padding-top: 170px;
+  padding-left: 50px;
+  font-size: 114px;
+}
+
+.Socials-icons i:hover {
+  color: aliceblue;
+}
